@@ -4,6 +4,8 @@ import gsap from 'gsap'
 
 import { rightImg, watchImg } from '../utils'
 
+import VideoCarousel from './VideoCarousel'
+
 const Highlights = () => {
     useGSAP(() => {
         gsap.to('#title', { opacity: 1, y: 0 })
@@ -32,6 +34,8 @@ const Highlights = () => {
                         </p>
                     </div>
                 </div>
+
+                <VideoCarousel />
             </div>
         </section>
     )
